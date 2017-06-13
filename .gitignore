@@ -1,0 +1,9 @@
+**/*
+!.bashrc
+!.bash_profile
+!.bash.d
+!.bash.d/**
+!.vimrc
+!.curlrc
+!.avnrc
+!.gitignore
