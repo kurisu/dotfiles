@@ -1,3 +1,5 @@
+export PATH="/usr/local/opt/elasticsearch@5.6/bin:$PATH"
+
 function es () {
   window "stt_tab elasticsearch && ~/tools/$(ls ~/tools/. | grep elasticsearch)/bin/elasticsearch"
   tab "stt_tab kibana && ~/tools/$(ls ~/tools/. | grep kibana)/bin/kibana"
